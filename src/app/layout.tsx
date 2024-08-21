@@ -38,7 +38,6 @@ export default function RootLayout({
         <Objectifs />
         {/* <Concepteur /> */}
         {/* <ExpertAreas /> */}
-        {/* <Partners /> */}
         <Contact />
         <CopyRight />
         <Mouse />
