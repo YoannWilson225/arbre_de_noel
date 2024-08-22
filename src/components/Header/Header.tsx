@@ -1,17 +1,9 @@
 'use client';
 
-import { useState } from "react";
-import { PaymentDrawer } from "../_components/drawer/PaymentDrawer";
+import ContrinuateBtn from "../_components/contribuateBtn/ContribuateBtn";
 
 
 const Header = () => {
-    const [open, setOpen] = useState(false);
-
-    const handleClick = (e: any) => {
-        e.preventDefault();
-        setOpen(true);
-    }
-
     return (
         <div className="orido_tm_header">
             <div className="header_in">
@@ -40,8 +32,7 @@ const Header = () => {
                     </ul>
                     <span className="ccc" />
                 </div>
-                <button onClick={handleClick}>Contribuez !</button>
-                <PaymentDrawer open={open} setOpen={setOpen} />
+                <ContrinuateBtn />
             </div>
         </div>
     );

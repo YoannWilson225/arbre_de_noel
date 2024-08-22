@@ -166,6 +166,8 @@ function AmountChoice({
 }: AmountChoiceProps) {
     const [goal, setGoal] = useState<number>(formData.amount);
 
+    console.log(isSmallScreen);
+
     const onClick = (adjustment: number) => {
         const newAmount = Math.max(1000, Math.min(1000000000, goal + adjustment));
         setGoal(newAmount);

@@ -12,6 +12,7 @@ import Mouse from "@/components/Mouse/Mouse";
 import React from "react";
 import { dataImage, hashtag_, imgToSVG, scrollSection, stickyNav } from "@/lib/globalFunction";
 import ProgressBar from "@/components/ProgressBar/ProgressBar";
+import { DrawerProvider } from "@/components/_components/drawer/DrawerContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,16 +33,18 @@ export default function RootLayout({
     <html suppressHydrationWarning lang="en">
       <body className={inter.className}>
         <script src="vendor/snowfall.js" defer></script>
-        <MobileMenu />
-        <Header />
-        <Home />
-        <Objectifs />
-        {/* <Concepteur /> */}
-        {/* <ExpertAreas /> */}
-        <Contact />
-        <CopyRight />
-        <Mouse />
-        <ProgressBar />
+        <DrawerProvider>
+          <MobileMenu />
+          <Header />
+          <Home />
+          <Objectifs />
+          {/* <Concepteur /> */}
+          {/* <ExpertAreas /> */}
+          <Contact />
+          <CopyRight />
+          <Mouse />
+          <ProgressBar />
+        </DrawerProvider>
         <div className="orido_tm_all_wrap" data-magic-cursor="show">
           {children}
         </div>

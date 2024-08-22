@@ -1,5 +1,5 @@
-// import { PaymentDrawer } from "./drawer/PaymentDrawer";
 import Image from "next/image";
+import ContribuateBtn from "../_components/contribuateBtn/ContribuateBtn";
 
 const Home = () => {
     return (
@@ -9,7 +9,7 @@ const Home = () => {
                     <div className="details">
                         <div className="short">
                             <h3>
-                                <img className="svg" src="img/svg/logicon.svg" alt="" />donne du sourire <img className="svg" src="img/svg/noel.svg" alt="" />
+                                <img className="w-[80px] h-[85px]" src="img/svg/I_noel.svg" alt="" />donne du sourire <img className="svg" src="img/svg/noel.svg" alt="" />
                             </h3>
                             <span className="job">2eme Edition</span>
                         </div>
@@ -19,12 +19,7 @@ const Home = () => {
                             </p>
                         </div>
                         <div className="buttons">
-                            <div className="orido_tm_boxed_button">
-                                <a className="anchor" href="#contact">
-                                    Contacts{" "}
-                                    <img className="svg" src="img/svg/send.svg" alt="" />
-                                </a>
-                            </div>
+                            <ContribuateBtn />
                             {/* <div className="orido_tm_simple_button">
                 <a className="line_effect anchor" href="#portfolio">
                   My Works{" "}

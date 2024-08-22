@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from "react";
+
 const MobileMenu = () => {
     const [toggle, setToggle] = useState(false);
     return (
@@ -18,7 +19,7 @@ const MobileMenu = () => {
                                 }`}
                         >
                             <div className="hamburger-box">
-                                <div className="hamburger-inner" />
+                                <img src="img/svg/menuBurger.svg" alt="" />
                             </div>
                         </div>
                     </div>

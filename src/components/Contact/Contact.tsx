@@ -1,3 +1,5 @@
+import ContribuateBtn from "../_components/contribuateBtn/ContribuateBtn";
+
 const Contact = () => {
     return (
         <div className="orido_tm_section" id="contact">
@@ -23,11 +25,7 @@ const Contact = () => {
                                 Contribuez pour apporter des sourires aux enfants dans le besoin. Chaque don, chaque geste compte pour créer des souvenirs magiques et inoubliables.
                             </p>
                         </div>
-                        <div className="orido_tm_boxed_button">
-                            <a href="#">
-                                Contribuez !
-                            </a>
-                        </div>
+                        <ContribuateBtn />
                     </div>
                     <div className="connect">
                         <div className="left">

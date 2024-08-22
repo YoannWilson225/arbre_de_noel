@@ -392,10 +392,12 @@ h6 {
 .orido_tm_mobile_menu .hamburger-inner:before {
   width: 30px;
   height: 2px;
+  background-color: #000;
 }
 
 .orido_tm_mobile_menu .hamburger-box {
   width: 30px;
+
 }
 
 .orido_tm_mobile_menu .hamburger {
@@ -465,7 +467,7 @@ h6 {
   color: white;
 }
 
-.orido_tm_header button {
+/* .orido_tm_header button {
   text-decoration: none;
   background-color: white;
   color: black;
@@ -486,7 +488,7 @@ h6 {
 .orido_tm_header button:hover {
   background-color: #252439;
   color: white;
-}
+} */
 
 .orido_tm_header .menu .ccc {
   position: absolute;
@@ -542,7 +544,7 @@ h6 {
   font-weight: 500;
   letter-spacing: -4px;
   margin-bottom: 11px;
-  color: #bebdc4;
+  color: white;
 }
 
 .orido_tm_hero .short h3 .svg {
