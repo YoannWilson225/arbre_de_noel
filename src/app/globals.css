@@ -846,7 +846,6 @@ h6 {
   float: left;
   background: linear-gradient(to top, #8B0000, #252439);
   padding: 180px 0px 120px 0px;
-  margin-bottom: 120px;
 }
 
 .orido_tm_about .about_in {
@@ -892,7 +891,7 @@ h6 {
 
 .orido_tm_about .name {
   font-size: 80px;
-  color: #8B0000;
+  color: white;
   font-weight: 700;
   letter-spacing: -4px;
   line-height: 1;
@@ -943,6 +942,7 @@ h6 {
   letter-spacing: -2px;
   font-size: 56px;
   font-weight: 700;
+  color: white;
 }
 
 .orido_tm_main_title h3 span {
@@ -954,7 +954,7 @@ h6 {
   content: "";
   width: 80px;
   height: 1px;
-  background-color: var(--main-color);
+  background-color: white;
   bottom: 16px;
   margin-left: 15px;
   left: 100%;
@@ -2086,7 +2086,7 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  background-color: #fafafb;
+  background: linear-gradient(to bottom, #8B0000, #252439);
 }
 
 .orido_tm_testimonials .testimonials_in {
@@ -2116,6 +2116,7 @@ h6 {
 .orido_tm_testimonials .text p {
   font-size: 24px;
   font-weight: 500;
+  color: white;
   line-height: 36px;
   font-family: var(--font-family-extra);
 }
@@ -2135,6 +2136,7 @@ h6 {
 .orido_tm_testimonials .details .name span {
   position: relative;
   display: inline-block;
+  color: white;
 }
 
 .orido_tm_testimonials .details .name span:before {
@@ -2142,7 +2144,7 @@ h6 {
   content: "";
   width: 24px;
   height: 1px;
-  background-color: var(--main-color);
+  background-color: white;
   top: 50%;
   transform: translateY(-50%);
   left: -41px;
@@ -2150,7 +2152,7 @@ h6 {
 
 .orido_tm_testimonials .details .job {
   font-size: 19px;
-  color: #707070;
+  color: white;
 }
 
 /*---------------------------------------------------*/

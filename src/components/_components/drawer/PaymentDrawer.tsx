@@ -1,3 +1,4 @@
+'use client';
 import React, { useState, Dispatch, SetStateAction } from "react";
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import PaymentDrawerContent from "./PaymentDrawerContent";

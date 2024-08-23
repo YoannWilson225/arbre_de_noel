@@ -1,3 +1,5 @@
+'use client';
+
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 // Créer un contexte pour gérer l'état du drawer

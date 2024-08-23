@@ -1,6 +1,7 @@
 'use client';
 
-import ContrinuateBtn from "../_components/contribuateBtn/ContribuateBtn";
+import ContribuateBtn from "../_components/contribuateBtn/ContribuateBtn";
+
 
 
 const Header = () => {
@@ -32,7 +33,7 @@ const Header = () => {
                     </ul>
                     <span className="ccc" />
                 </div>
-                <ContrinuateBtn />
+                <ContribuateBtn />
             </div>
         </div>
     );

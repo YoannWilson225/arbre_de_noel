@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect, ChangeEvent } from 'react';
 import { MinusIcon, PlusIcon } from "@radix-ui/react-icons";
 import { Label } from '@/components/ui/label';

@@ -1,3 +1,5 @@
+'use client';
+
 import { scrollTop } from "@/lib/globalFunction";
 import { useEffect } from "react";
 
